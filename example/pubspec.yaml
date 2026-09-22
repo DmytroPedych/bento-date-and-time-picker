@@ -1,0 +1,25 @@
+name: bento_datetime_picker_example
+description: "Example app for bento_datetime_picker."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bento_datetime_picker:
+    path: ../
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  generate: true
