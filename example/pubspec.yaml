@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.20.2
   bento_datetime_picker:
     path: ../
   cupertino_icons: ^1.0.8
