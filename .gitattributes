@@ -1,0 +1,15 @@
+# GitHub Linguist: this is a Dart/Flutter package.
+# The example app's platform folders are Flutter-generated boilerplate
+# (C++, CMake, Swift, Kotlin, Objective-C) and must not count as the
+# repository language.
+example/android/** linguist-vendored
+example/ios/**     linguist-vendored
+example/linux/**   linguist-vendored
+example/macos/**   linguist-vendored
+example/windows/** linguist-vendored
+example/web/**     linguist-vendored
+
+# Explicitly mark plugin registrants as generated, wherever they live.
+**/generated_plugin_registrant.* linguist-generated
+**/GeneratedPluginRegistrant.*   linguist-generated
+**/generated_plugins.cmake       linguist-generated

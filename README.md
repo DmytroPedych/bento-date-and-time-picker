@@ -178,12 +178,6 @@ cd example
 flutter run
 ```
 
-## Roadmap
-
-* `BentoTimePicker` — the widget and its theme extension are stubs for now, work in progress
-* Date range mode
-* Screenshots and a web demo
-
 ## Issues and feedback
 
 Bugs and ideas go to the
